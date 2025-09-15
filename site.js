@@ -23,3 +23,5 @@ else if (isEvening) {
     welcomeMessage = 'Good Evening!'
 }
 welcomeMsg.textContent = welcomeMessage // sets the text of the div to the welcome message  
+
+localStorage.setItem("It's a secret to everybody.", "Sorry - I'm not sure where this reference is from!")
